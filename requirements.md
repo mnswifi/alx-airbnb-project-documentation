@@ -35,8 +35,8 @@ PUT  /api/auth/profile
 {
   "email": "user@example.com",
   "password": "SecurePassword123!",
-  "firstName": "John",
-  "lastName": "Doe",
+  "firstName": "Sanusi",
+  "lastName": "Lamido",
   "role": "guest"
 }
 ```
@@ -123,7 +123,7 @@ POST   /api/properties/:id/availability
 ```json
 {
   "id": "prop_67890",
-  "title": "Beautiful Beach House",
+  "title": "Beautiful Terrace Apartment",
   "hostId": "user_12345",
   "pricePerNight": 250,
   "averageRating": 4.8,
